@@ -17,6 +17,6 @@ window.CBS_SITE_CONFIG = {
   releaseDate: "October 2026",
   publisher: "Rhapnel Reys Developments",
   // Set this after deploying the licensing API; never place PayMongo secret keys here.
-  licenseApiUrl: "https://YOUR-LICENSING-API.onrender.com",
+  licenseApiUrl: "https://church-border-studio-licensing-api.onrender.com",
   proPricePHP: 499
 };
