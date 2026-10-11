@@ -1,0 +1,13 @@
+{
+  "name": "Church Border Studio — Production Edition",
+  "short_name": "Border Studio",
+  "description": "Professional lyrics border and overlay controls for OBS Studio and FreeShow.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#100d19",
+  "theme_color": "#100d19",
+  "icons": [
+    { "src": "assets/app-icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/app-icon.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
