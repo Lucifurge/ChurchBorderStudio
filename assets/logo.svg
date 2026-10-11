@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Church Border Studio icon">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24153b"/><stop offset=".55" stop-color="#111426"/><stop offset="1" stop-color="#080b13"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#fff0bd"/><stop offset=".34" stop-color="#e7c777"/><stop offset=".72" stop-color="#b98234"/><stop offset="1" stop-color="#ffdf8a"/></linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bd8aff"/><stop offset="1" stop-color="#54329d"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect x="10" y="10" width="492" height="492" rx="102" fill="url(#bg)"/>
+ <rect x="13" y="13" width="486" height="486" rx="99" fill="none" stroke="url(#gold)" stroke-width="5"/>
+ <rect x="27" y="27" width="458" height="458" rx="86" fill="none" stroke="#b79be7" stroke-opacity=".25" stroke-width="2"/>
+ <path d="M104 376V215C104 128 169 69 256 69S408 128 408 215V376" fill="none" stroke="url(#violet)" stroke-width="15" stroke-linecap="round"/>
+ <path d="M132 372V224C132 151 180 102 256 102S380 151 380 224V372" fill="none" stroke="url(#gold)" stroke-opacity=".7" stroke-width="4"/>
+ <circle cx="256" cy="210" r="99" fill="#b18ae9" opacity=".06"/>
+ <g filter="url(#glow)" stroke="url(#gold)" stroke-linecap="round" fill="none">
+  <path d="M256 121V267" stroke-width="20"/><path d="M202 174H310" stroke-width="20"/>
+  <path d="M256 121V267" stroke="#fff0bd" stroke-opacity=".55" stroke-width="4"/><path d="M202 174H310" stroke="#fff0bd" stroke-opacity=".55" stroke-width="4"/>
+ </g>
+ <g transform="translate(0 14)" fill="url(#gold)" stroke="#ffe8a5" stroke-width="2" stroke-linejoin="round">
+  <path d="M160 314L178 346L206 327L230 357L256 330L282 357L306 327L334 346L352 314L331 364H181Z"/>
+  <rect x="178" y="363" width="156" height="17" rx="5"/>
+  <path d="M181 311L170 290L211 309L235 283L256 309L277 283L301 309L342 290L331 311Z" opacity=".92"/>
+ </g>
+ <path d="M126 414H386" stroke="url(#gold)" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+ <circle cx="256" cy="443" r="4" fill="#edcf85"/><circle cx="238" cy="443" r="2" fill="#b39adf"/><circle cx="274" cy="443" r="2" fill="#b39adf"/>
+</svg>
